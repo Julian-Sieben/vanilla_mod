@@ -15,9 +15,6 @@
     {
         "input": {
         "power": 5,
-         "liquids": [
-       {"liquid": "vanilla-mod-oxygen", "amount": 1}
-         ]
        },
        "output": {
         "items": [
