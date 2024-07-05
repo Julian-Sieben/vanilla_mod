@@ -1,0 +1,19 @@
+name: "vanilla-mod"
+displayName: "vanilla mod"
+author: "vanilla5751"
+description: "a mod heavily inspired by bob and angels mods for factorio
+currently Adds 
+18 ores 
+33 non-ore items
+18 statuses
+29 fluids
+10 production blocks
+4 units
+3 turrets
+0 wall blocks
+2 transport blocks
+i do not reccomend playing this on a small map some recipe trees get big as they are loosely based on real chemical processes
+i also do not reccomend playing with other mods but if its compatible then there aint no harm in doing it.
+i will eventually upload the recipe trees diagram somewhere cause they get large."
+version: "0.0.1"
+minGameVersion: "140"

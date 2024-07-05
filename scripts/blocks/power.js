@@ -1,0 +1,1 @@
+const reactor = extend(ConsumeGenerator, "reactor", {});

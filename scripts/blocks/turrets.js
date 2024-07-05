@@ -1,0 +1,1 @@
+const radiator = extend(ItemTurret, "radiator", {});
