@@ -15,6 +15,9 @@
     {
         "input": {
         "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 2}
+        ]
        },
        "output": {
         "items": [
