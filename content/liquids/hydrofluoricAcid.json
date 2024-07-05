@@ -1,0 +1,10 @@
+{
+    "name": "hydrofluoricAcid",
+    "description": "null",
+    "heatCapacity": 1.0,
+    "flammability": 0.0,
+    "explosiveness": 0.0,
+    "viscosity": 1.0,
+    "temperature": 1.0,
+    "color": "#d6abd5"
+  }
