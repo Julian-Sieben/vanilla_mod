@@ -1,0 +1,150 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]meson Decomposer",
+    "description": "decompose mesons into their quarks",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionUU", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-upQuark", "amount": 1},
+            {"item": "vanilla-mod-antiUpQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionDD", "amount": 2}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-downQuark", "amount": 1},
+            {"item": "vanilla-mod-antiDownQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionUD", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-upQuark", "amount": 1},
+            {"item": "vanilla-mod-antiDownQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-etaMesonDD", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiMuon", "amount": 1},
+            {"item": "vanilla-mod-Muon", "amount": 1},
+            {"item": "vanilla-mod-PionDD", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-etaMesonUU", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiMuon", "amount": 1},
+            {"item": "vanilla-mod-Muon", "amount": 1},
+            {"item": "vanilla-mod-PionUU", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-etaPrimeMesonUU", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiMuon", "amount": 1},
+            {"item": "vanilla-mod-Muon", "amount": 1},
+            {"item": "vanilla-mod-etaMesonUU", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-etaPrimeMesonDD", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiMuon", "amount": 1},
+            {"item": "vanilla-mod-Muon", "amount": 1},
+            {"item": "vanilla-mod-etaMesonDD", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       }
+
+
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "pionDD", "amount": 100},
+        {"item": "pionDU", "amount": 200},
+        {"item": "pionUU", "amount": 100},
+        {"item": "pionUD", "amount": 100}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

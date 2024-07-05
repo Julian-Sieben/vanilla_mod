@@ -1,0 +1,48 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]filter",
+    "description": "filter out unwanted chemicals",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-uraniumtetrafluoride", "amount": 2}
+              ],
+         "items": [
+       {"item": "vanilla-mod-magnesium", "amount": 3}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-pureUranium", "amount": 2},
+      {"item": "vanilla-mod-magnesiumfluoride", "amount": 3}
+        ]
+       },
+       "craftTime": 60
+       }
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "surge-alloy", "amount": 100},
+        {"item": "phase-fabric", "amount": 200},
+        {"item": "gold", "amount": 250}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

@@ -1,0 +1,50 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]washer",
+    "description": "washes stuff",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-nitricAcid", "amount": 2}
+              ],
+         "items": [
+       {"item": "vanilla-mod-yellowcake", "amount": 3}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-pureYellowcake", "amount": 2}
+        ],
+        "fluids": [
+            {"fluid": "vanilla-mod-ammonia", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       }
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "lithium", "amount": 100},
+        {"item": "fluorite", "amount": 200},
+        {"item": "osmium", "amount": 250}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

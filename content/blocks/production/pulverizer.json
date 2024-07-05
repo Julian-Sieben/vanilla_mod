@@ -1,0 +1,57 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]ore pulverizer",
+    "description": "crushes chunks into a fine powder",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-uraniumChunks", "amount": 3}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-uraniumPowder", "amount": 1}
+        ]
+       },
+       "craftTime": 60
+       },
+            {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-graphiteChunks", "amount": 3}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-graphitePowder", "amount": 1}
+        ]
+       },
+       "craftTime": 60
+       }
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "chromium", "amount": 100},
+        {"item": "cobalt", "amount": 150}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

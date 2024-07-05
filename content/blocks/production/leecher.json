@@ -1,0 +1,50 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]leecher",
+    "description": "leech chemicals into other chemicals",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-sulfuricAcid", "amount": 2}
+              ],
+         "items": [
+       {"item": "vanilla-mod-uraniumPowder", "amount": 3},
+       {"item": "vanilla-mod-sodiumchlorate", "amount": 3}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-yellowcake", "amount": 1},
+      {"item": "vanilla-mod-sulfur", "amount": 2},
+      {"item": "vanilla-mod-sodium", "amount": 2}
+        ]
+       },
+       "craftTime": 200
+       }
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "uranium", "amount": 100},
+        {"item": "chromium", "amount": 500},
+        {"item": "plutonium", "amount": 50}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

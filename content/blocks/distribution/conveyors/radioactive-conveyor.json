@@ -1,0 +1,14 @@
+{
+    "type": "Conveyor",
+    "name": "radioactive Conveyor",
+    "description": "a conveyor made of uranium, who came up with this?!?",
+    "category": "distribution",
+    "requirements": [
+      "plutonium/1",
+      "uranium238/1"
+    ],
+    "health": 200,
+    "speed": 0.3,
+    "displayedSpeed": 25
+  }
+  

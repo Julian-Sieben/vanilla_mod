@@ -1,0 +1,314 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]chemicalPlant",
+    "description": "combines chemicals",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-oxygen", "amount": 2},
+            {"fluid": "vanilla-mod-sulfurdioxide", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-sulfurtrioxide", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-sulfurtrioxide", "amount": 2},
+            {"fluid": "vanilla-mod-sulfuricAcid", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-oleum", "amount": 3}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-oleum", "amount": 2},
+            {"fluid": "water", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-sulfuricAcid", "amount": 6}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "nitrogen", "amount": 2},
+            {"fluid": "hydrogen", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-ammonia", "amount": 1}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-ammonia", "amount": 2},
+            {"fluid": "vanilla-mod-oxygen", "amount": 4}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-nitrogenmonoxide", "amount": 1}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-nitrogenmonoxide", "amount": 3},
+            {"fluid": "vanilla-mod-oxygen", "amount": 3}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-nitrogendioxide", "amount": 3}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-nitrogenmonoxide", "amount": 1},
+            {"fluid": "water", "amount": 2},
+            {"fluid": "vanilla-mod-oxygen", "amount": 3}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-nitricAcid", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-argon", "amount": 4},
+            {"fluid": "water", "amount": 2}
+              ],
+        "items": [
+            {"item": "vanilla-mod-sodium", "amount": 2}
+            ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "hydrogen", "amount": 2}
+        ],
+        "items": [
+            {"item": "vanilla-mod-sodiumhydroxide", "amount": 2}
+            ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-chlorine", "amount": 4}
+              ],
+        "items": [
+            {"item": "vanilla-mod-sodiumhydroxide", "amount": 4}
+            ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-bleach", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-uraniumhexafluoride", "amount": 4},
+            {"fluid": "water", "amount": 4}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-hydratedUranylfluoride", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "water", "amount": 3}
+              ],
+        "items": [
+            {"item": "vanilla-mod-calciumoxide", "amount": 2}
+            ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-calciumhydroxide", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-carbondioxide", "amount": 3}
+              ],
+        "items": [
+            {"item": "vanilla-mod-calciumhydroxide", "amount": 3}
+            ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-calciumcarbonate", "amount": 1}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-sulfuricAcid", "amount": 2}
+              ],
+        "items": [
+            {"item": "vanilla-mod-fluorite", "amount": 3}
+            ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-calciumsulphate", "amount": 1}
+        ],
+        "fluids": [
+            {"fluid": "vanilla-mod-hydrofluoricAcid", "amount": 4}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-hydratedUranyfluoride", "amount": 5},
+            {"fluid": "water", "amount": 4}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-reactorFuel", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "water", "amount": 2},
+            {"fluid": "vanilla-mod-sulfurtrioxide", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-sulfuricAcid", "amount": 1}
+        ]
+       },
+       "craftTime": 60
+       }
+
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "lithium", "amount": 100},
+        {"item": "fluorite", "amount": 200},
+        {"item": "osmium", "amount": 250}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

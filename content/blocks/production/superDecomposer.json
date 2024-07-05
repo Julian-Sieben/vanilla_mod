@@ -1,0 +1,167 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]super decomposer",
+    "description": "crushes oxygen and particles into their smallest parts",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+         "liquids": [
+       {"liquid": "vanilla-mod-oxygen", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-proton", "amount": 8},
+      {"item": "vanilla-mod-neutron", "amount": 8},
+      {"item": "vanilla-mod-electron", "amount": 8}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-neutron", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-upQuark", "amount": 1},
+      {"item": "vanilla-mod-downQuark", "amount": 2},
+      {"item": "vanilla-mod-gluon", "amount": 8}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-electron", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-photon", "amount": 5}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-proton", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-upQuark", "amount": 2},
+      {"item": "vanilla-mod-downQuark", "amount": 1},
+      {"item": "vanilla-mod-gluon", "amount": 8}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionUU", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-muon", "amount": 1},
+            {"item": "vanilla-mod-muonNeutrino", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionDD", "amount": 2}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiMuon", "amount": 1},
+            {"item": "vanilla-mod-antiMuonNeutrino", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionUD", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-photon", "amount": 2}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionDU", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-photon", "amount": 2}
+        ]
+       },
+       "craftTime": 600
+       }
+
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "uranium234", "amount": 100},
+        {"item": "uranium235", "amount": 150},
+        {"item": "thorium", "amount": 1000},
+        {"item": "chromium", "amount": 500},
+        {"item": "diamond", "amount": 250},
+        {"item": "ruby", "amount": 250},
+        {"item": "sapphire", "amount": 250},
+        {"item": "emerald", "amount": 250}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

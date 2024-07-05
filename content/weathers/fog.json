@@ -1,0 +1,20 @@
+{
+"noiseLayers": 3.5,
+"noiseLayerSclM": 1,
+"noiseLayerAlphaM": 0.9,
+"baseSpeed": 0.59,
+"color": 769399,
+"noiseColor": 769399,
+"noiseScale": 1500,
+"drawParticles": false,
+"drawNoise": true,
+"useWindVector": true,
+"xspeed": 1,
+"yspeed": 0.01,
+"opacityMultiplier": 0.43,
+"attrs": {
+"light": -0.9,
+"water": 1.9,
+"heat": -0.4
+}
+}

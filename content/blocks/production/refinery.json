@@ -1,0 +1,164 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]refinery",
+    "description": "refines oil products",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "oil", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+      {"fluid": "vanilla-mod-lightOil", "amount": 3}
+        ]
+       },
+       "craftTime": 200
+       },
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "oil", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+      {"fluid": "vanilla-mod-heavyOil", "amount": 1}
+        ]
+       },
+       "craftTime": 200
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "oil", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+      {"fluid": "vanilla-mod-petrolium", "amount": 2}
+        ]
+       },
+       "craftTime": 200
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-lightOil", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+      {"fluid": "vanilla-mod-gasoline", "amount": 1}
+        ]
+       },
+       "craftTime": 200
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-lightOil", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+      {"fluid": "vanilla-mod-diesel", "amount": 1}
+        ]
+       },
+       "craftTime": 200
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-heavyOil", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+      {"fluid": "vanilla-mod-resin", "amount": 1}
+        ]
+       },
+       "craftTime": 200
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-heavyOil", "amount": 2}
+              ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-sulfur", "amount": 1}
+        ]
+       },
+       "craftTime": 200
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-lightOil", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+      {"fluid": "vanilla-mod-gasoline", "amount": 1}
+        ]
+       },
+       "craftTime": 200
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-petrolium", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+      {"fluid": "vanilla-mod-propane", "amount": 1}
+        ]
+       },
+       "craftTime": 200
+       }
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "chromium", "amount": 100},
+        {"item": "lithium", "amount": 500}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

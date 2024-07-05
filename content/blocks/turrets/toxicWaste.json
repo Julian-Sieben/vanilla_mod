@@ -1,0 +1,53 @@
+{
+    "type": "ContinuousTurret",
+    "localizedName": "[#ff66]toxicWaste",
+    "description": "a turret that shoots a beam of uranium235, consumes a lot of energy",
+    "health": 4000,
+    "size": 3,
+    "liquidCapacity": 250,
+    "category": "turret",
+    "requirements": [
+      "uranium234/25",
+      "uranium238/25",
+      "emerald/500",
+      "diamond/500",
+      "gold/150"
+    ],
+    "targetAir": true,
+    "targetGround": true,
+    "targetHealing": false,
+    "range": 500,
+    "cooldownTime" : 150,
+    "recoil": 2,
+    "rotateSpeed": 2.0,
+    "minWarmup": 0.94,
+    "shootWarmupSpeed": 0.05,
+    "consumes": {
+    "power": 5000.0,
+    "items": {
+    "item": "hydratedUranylfluoride",
+    "amount": 0.1
+    }
+  },
+    "shootType": {
+      "type": "PointLaserBulletType",
+      "sprite": "vanilla-mod-radiatedLaser",
+      "collidesTeam": true,
+      "damage": 75
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {},
+      {
+        "suffix": "-heat",
+        "mirror": false,
+        "under": true,
+        "progress": {
+          "type": "warmup"
+        }
+      }
+    ]
+  }
+  }
+  

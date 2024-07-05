@@ -1,0 +1,56 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "localizedName": "[#ff66]Crusher",
+  "description": "crushes ores into chunks",
+  "health": 500,
+  "itemCapacity": 50,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "updateEffect": "smeltsmoke",	
+ "recipes": 
+ [
+     {
+      "input": {
+      "power": 5,
+       "items": [
+     {"item": "vanilla-mod-uranium", "amount": 3}
+       ]
+     },
+     "output": {
+      "items": [
+    {"item": "vanilla-mod-uraniumChunks", "amount": 2}
+      ]
+     },
+     "craftTime": 60
+     },
+          {
+      "input": {
+      "power": 5,
+       "items": [
+     {"item": "graphite", "amount": 3}
+       ]
+     },
+     "output": {
+      "items": [
+    {"item": "vanilla-mod-graphiteChunks", "amount": 2}
+      ]
+     },
+     "craftTime": 60
+     }
+ ],
+"drawer": [
+     { 
+       "type": "DrawDefault" 
+     }
+   ],
+  "requirements": [
+      {"item": "nickle", "amount": 200},
+      {"item": "manganese", "amount": 200}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "graphite"
+  }
+}

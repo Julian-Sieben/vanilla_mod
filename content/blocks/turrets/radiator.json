@@ -1,0 +1,85 @@
+{
+    "type": "ItemTurret",
+    "localizedName": "[#ff66]radiator",
+    "description": "A turret that fires uranium234 and sulfuricAcid",
+    "health": 3000,
+    "size": 2,
+    "category": "turret",
+    "requirements": [
+      "uranium234/25",
+      "diamond/100",
+      "magnesiumfluoride/50",
+      "ruby/100",
+      "sapphire/100"
+    ],
+    "targetAir": true,
+    "targetGround": true,
+    "targetHealing": true,
+    "outlineIcon": true,
+    "cooldownTime" : 240,
+    "recoil": 14,
+    "minWarmup": 0.94,
+    "shootWarmupSpeed": 0.25,
+    "maxAmmo": 25,
+    "ammoPerShot": 5,
+    "rotateSpeed": 1,
+    "reload": 500,
+    "range": 300,
+      "ammoTypes": {
+          "uranium234": {
+          "type": "BasicBulletType",
+            "collidesTiles": true,
+            "collides" : true,
+            "homingPower": 0.05,
+            "homingRange": 10,
+            "reloadMultiplier": 0.5,
+            "ammoMultiplier": 5,
+            "hittable": false,
+            "absorbable": false,
+            "pierce": true,
+            "hitEffect": "titanExplosion",
+            "pierceCap": 4,
+            "pierceBuilding": true,
+            "damage": 1200,
+            "width": 12,
+            "height": 30,
+            "lifetime": 120,
+            "speed": 4,
+            "backColor": "FF5733",
+            "frontColor": "FF5733",
+            "fragBullets": 20,
+            "fragSpread": 5,
+            "fragRandomSpread": 0,
+            "fragBullet": {
+              "type": "LiquidBulletType",
+              "laserAbsorb": true,
+              "hittable": true,
+              "absorbable": true,
+              "status": "burning",
+              "makeFire": true,
+              "liquid": "sulfuricAcid",
+              "despawnHit": true,
+              "puddleSize": 100,
+              "width": 8,
+              "height": 20,
+              "lifetime": 60,
+              "speed": 2
+          }			
+        }
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {},
+      {
+        "suffix": "-heat",
+        "mirror": false,
+        "under": false,
+        "progress": {
+          "type": "warmup"
+        }
+      }
+    ]
+  }
+  }
+  

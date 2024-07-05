@@ -1,0 +1,20 @@
+{
+    "type": "StackConveyor",
+    "name": "diamond Conveyor",
+    "description": "A conveyor made from diamonds",
+    "category": "distribution",
+    "requirements": [
+      "diamond/3",
+      "ruby/1",
+      "sapphire/1",
+      "emerald/1",
+      "silver/1",
+      "gold/1"
+    ],
+    "loadEffect": "absorb",
+    "health": 200,
+    "speed": 0.2,
+    "displayedSpeed": 20,
+    "itemCapacity": 10
+  }
+  

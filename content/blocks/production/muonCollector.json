@@ -1,0 +1,46 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]muon collector",
+    "description": "use energy to make muons",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+  
+    {
+        "input": {
+        "power": 5,
+         "liquids": [
+       {"liquid": "vanilla-mod-oxygen", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-muon", "amount": 2}
+        ]
+       },
+       "craftTime": 1000
+       }
+
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "proton", "amount": 200},
+        {"item": "neutron", "amount": 200},
+        {"item": "electron", "amount": 400}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

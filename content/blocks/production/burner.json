@@ -1,0 +1,112 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]burner",
+    "description": "burns stuff",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-oxygen", "amount": 4}
+              ],
+         "items": [
+       {"item": "vanilla-mod-sulfur", "amount": 2}
+         ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-sulfurdioxide", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-gasoline", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-carbondioxide", "amount": 2}
+        ],
+      "powerProduction": 1000
+       },
+       "craftTime": 60
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-diesel", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-carbondioxide", "amount": 2}
+        ],
+      "powerProduction": 1500
+       },
+       "craftTime": 60
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-propane", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-carbondioxide", "amount": 2}
+        ],
+      "powerProduction": 2000
+       },
+       "craftTime": 60
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-coal", "amount": 2}
+              ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-carbondioxide", "amount": 2}
+        ],
+      "powerProduction": 100
+       },
+       "craftTime": 60
+       }
+
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "calcite", "amount": 100},
+        {"item": "fluorite", "amount": 200},
+        {"item": "vanadium", "amount": 250}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

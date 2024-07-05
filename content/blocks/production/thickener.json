@@ -1,0 +1,68 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]thickener",
+    "description": "thicken a fluid",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-hydrofluoricAcid", "amount": 4}
+              ],
+         "items": [
+       {"item": "vanilla-mod-pureYellowcake", "amount": 3}
+         ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-uraniumtetrafluoride", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       },
+
+
+
+       {
+        "input": {
+        "power": 5,
+        "fluids": [
+            {"fluid": "vanilla-mod-hydrofluoricAcid", "amount": 6}
+              ],
+         "items": [
+       {"item": "vanilla-mod-pureYellowcake", "amount": 3}
+         ]
+       },
+       "output": {
+        "fluids": [
+            {"fluid": "vanilla-mod-uraniumhexafluoride", "amount": 2}
+        ]
+       },
+       "craftTime": 60
+       }
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "uranium", "amount": 100},
+        {"item": "plutonium", "amount": 50},
+        {"item": "surge-alloy", "amount": 50},
+        {"item": "osmium", "amount": 250}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

@@ -1,0 +1,9 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "sapphire",
+    "playerUnmineable": true,
+    "oreDefault": true,
+    "variants": 1,
+    "oreScale": 20.4,
+    "oreThreshold": 0.91
+    }

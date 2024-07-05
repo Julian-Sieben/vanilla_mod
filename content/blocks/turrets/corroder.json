@@ -1,0 +1,69 @@
+{
+    "type": "ItemTurret",
+    "localizedName": "[#ff66]corroder",
+    "description": "A turret that fires low damage uranium238 fast",
+    "health": 2000,
+    "size": 1,
+    "category": "turret",
+    "requirements": [
+      "uranium238/25",
+      "silver/100",
+      "calcium/50",
+      "sulfur/100",
+      "yellowcake/100"
+    ],
+    "targetAir": true,
+    "targetGround": true,
+    "targetHealing": true,
+    "cooldownTime" : 1,
+    "recoil": 2,
+    "minWarmup": 0.94,
+    "shootWarmupSpeed": 0.25,
+    "maxAmmo": 50,
+    "ammoPerShot": 1,
+    "rotateSpeed": 5,
+    "reload": 100,
+    "range": 500,
+      "ammoTypes": {
+          "uranium234": {
+          "type": "BasicBulletType",
+          "collidesTiles": true,
+          "collides" : true,
+          "homingPower": 0.2,
+          "homingRange": 20,
+          "reloadMultiplier": 0.5,
+          "ammoMultiplier": 10,
+          "laserAbsorb": true,
+          "hittable": false,
+          "absorbable": false,
+          "pierce": true,
+          "hitEffect": "none",
+          "pierceCap": 5,
+          "pierceBuilding": true,
+          "status": "burning",
+          "makeFire": true,
+          "damage": 400,
+          "width": 12,
+          "height": 30,
+          "lifetime": 120,
+          "speed": 4,
+          "backColor": "FF5733",
+          "frontColor": "FF5733"		
+        }
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {},
+      {
+        "suffix": "-heat",
+        "mirror": false,
+        "under": false,
+        "progress": {
+          "type": "warmup"
+        }
+      }
+    ]
+  }
+  }
+  

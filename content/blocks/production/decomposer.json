@@ -1,0 +1,186 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "localizedName": "[#ff66]decomposer",
+  "description": "breaks down chemicals into their basic elements",
+  "health": 500,
+  "itemCapacity": 50,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "updateEffect": "smeltsmoke",	
+ "recipes": 
+ [
+     {
+      "input": {
+      "power": 5,
+       "fluids": [
+     {"fluid": "water", "amount": 5}
+       ]
+     },
+     "output": {
+      "fluids": [
+    {"fluid": "vanilla-mod-oxygen", "amount": 10}
+      ],
+      "items": [
+        {"item": "vanilla-mod-salt", "amount": 3}
+          ]
+     },
+     "craftTime": 60
+     },
+
+
+
+     {
+      "input": {
+      "power": 5,
+       "fluids": [
+     {"fluid": "water", "amount": 5}
+       ]
+     },
+     "output": {
+      "fluids": [
+    {"fluid": "hydrogen", "amount": 5}
+      ],
+      "items": [
+        {"item": "vanilla-mod-salt", "amount": 3}
+          ]
+     },
+
+     "craftTime": 60
+     },
+
+
+
+     {
+      "input": {
+      "power": 5,
+       "items": [
+     {"item": "vanilla-mod-calcite", "amount": 1}
+       ]
+     },
+     "output": {
+      "fluids": [
+    {"fluid": "vanilla-mod-carbondioxide", "amount": 1}
+      ],
+      "items": [
+        {"item": "vanilla-mod-calciumoxide", "amount": 2}
+          ]
+     },
+
+     "craftTime": 60
+     },
+
+
+
+     {
+      "input": {
+      "power": 5,
+       "items": [
+     {"item": "vanilla-mod-pureUranium", "amount": 5}
+       ]
+     },
+     "output": {
+      "items": [
+        {"item": "vanilla-mod-uranium234", "amount": 1},
+        {"item": "vanilla-mod-uranium235", "amount": 1},
+        {"item": "vanilla-mod-uranium238", "amount": 1}
+          ]
+     },
+
+     "craftTime": 60
+     },
+
+
+
+     {
+      "input": {
+      "power": 5,
+       "fluids": [
+     {"fluid": "vanilla-mod-bleach", "amount": 1}
+       ]
+     },
+     "output": {
+      "items": [
+        {"item": "vanilla-mod-sodiumchlorate", "amount": 1},
+        {"item": "vanilla-mod-salt", "amount": 1}
+          ]
+     },
+
+     "craftTime": 60
+     },
+
+
+
+     {
+      "input": {
+      "power": 5,
+       "items": [
+     {"item": "vanilla-mod-fluorite", "amount": 1}
+       ]
+     },
+     "output": {
+      "fluids": [
+    {"fluid": "vanilla-mod-fluorine", "amount": 1}
+      ],
+      "items": [
+        {"item": "vanilla-mod-calcium", "amount": 2}
+          ]
+     },
+
+     "craftTime": 60
+     },
+
+
+
+     {
+      "input": {
+      "power": 5,
+       "items": [
+     {"item": "vanilla-mod-air", "amount": 1}
+       ]
+     },
+     "output": {
+      "fluids": [
+    {"fluid": "nitrogen", "amount": 1}
+      ]
+     },
+
+     "craftTime": 60
+     },
+
+
+
+          {
+      "input": {
+      "power": 5,
+       "items": [
+     {"item": "vanilla-mod-salt", "amount": 3}
+       ]
+     },
+     "output": {
+      "items": [
+    {"item": "vanilla-mod-sodium", "amount": 3}
+      ],
+      "fluids": [
+        {"fluid": "vanilla-mod-chlorine", "amount": 3}
+      ]
+     },
+     "craftTime": 60
+     }
+ ],
+"drawer": [
+     { 
+       "type": "DrawDefault" 
+     }
+   ],
+  "requirements": [
+      {"item": "osmium", "amount": 200},
+      {"item": "titanium", "amount": 200},
+      {"item": "lead", "amount": 400}
+  ],
+  "category": "crafting",
+    "research": {
+    "parent": "graphite"
+  }
+}

@@ -1,0 +1,51 @@
+{
+"health": 500,
+"speed": 1.75,
+"armor": 1,
+"hitSize": 10,
+"hovering": true,
+"groundLayer": 72,
+"shadowElevation": 0.1,
+"deathExplosionEffect": [
+{
+"type": "ExplosionEffect",
+"waveRad": 20,
+"lifetime": 60,
+"waveLife": 4,
+"waveColor": 123332,
+"waveStroke": 1.5,
+"sparks": 8,
+"sparkLen": 3,
+"sparkStroke": 2,
+"sparkColor": 554566,
+"sparkRad": 25,
+"smokes": 7,
+"smokeSize": 10,
+"smokeRad": 30,
+"smokeColor": 434244
+}],
+"weapons": [
+{
+"name": "jet-cell",
+"x": 5.75,
+"y": 0.5,
+"reload": 25,
+"top": false,
+"mirror": true,
+"alternate": true,
+"shoot": {
+"type": "ShootPattern",
+"shots": 4,
+"shotDelay": 3
+},
+"bullet": {
+"type": "BasicBulletType",
+"speed": 4,
+"damage": 3,
+"width": 7,
+"height": 9,
+"lifetime": 70,
+"statusDuration": 180,
+"backColor": 566546,
+"frontColor": 988967}}]
+}
