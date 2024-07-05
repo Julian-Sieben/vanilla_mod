@@ -1,0 +1,9 @@
+{
+  "name": "uraniumChunks",
+  "description": "null",
+  "cost": 3,
+  "color": "ff0000",
+  "research": {
+  "parent": "graphite"
+  }
+}
