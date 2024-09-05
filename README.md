@@ -3,7 +3,7 @@
 
 a massive mod for mindustry loosely based on real chemical and physics processes.
 
-this mod is inspired by bod-angels mod set for factorio and is not reccommended to be played on a small map, or with other mods.
+this mod is inspired by bob-angels mod set for factorio and is not reccommended to be played on a small map, or with other mods.
 
 
 
