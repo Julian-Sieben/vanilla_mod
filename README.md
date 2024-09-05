@@ -17,7 +17,7 @@ this mod is inspired by bod-angels mod set for factorio and is not reccommended 
 - 22 production blocks
 - 4 units
 - 3 turrets
-- 0 wall blocks
+- 14 wall blocks
 - 2 transport blocks
 
 
@@ -30,10 +30,10 @@ this mod is inspired by bod-angels mod set for factorio and is not reccommended 
 
 - V1.0: release onto github
 - V1.1: added all mesons, added 4 new machines  || particles update
+- V1.1.1: added 14 new walls
 
 ## update plans
 
-- V1.1.1: add walls for many particles and mesons
 - v1.1.2: add a few cores for mesons and particles
 - v1.1.3: add a few new machine accelerators and menders and shields
 - V1.2: add many more turrets and units    || combat update
