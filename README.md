@@ -39,6 +39,7 @@ this mod is inspired by bob-angels mod set for factorio and is not reccommended 
 - V1.2: add many more turrets and units    || combat update
 - V1.3: enhance the oil refininery and add more preliminaries and biproducts   || oil and preliminaries update
 - V1.4: finish off with all of the chemical elements      || chemistry update
+- V1.5: add elemental stones and new turrets based on them  || magic update
 
 - V2.0: a full recoding of the mod into java
 
