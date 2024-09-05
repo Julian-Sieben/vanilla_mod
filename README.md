@@ -29,12 +29,13 @@ this mod is inspired by bod-angels mod set for factorio and is not reccommended 
 ## Update Logs
 
 - V1.0: release onto github
-- V1.1: added all mesons, added 4 new machines
+- V1.1: added all mesons, added 4 new machines  || particles update
 
 ## update plans
 
-- V1.1: finish up the with mesons
-- V1.2: add many more turrets
-- V1.3: enhance the oil refininery and add more preliminaries and biproducts
-- V1.4: finish off with all of the chemical elements
-- V1.5: add many more units
+- V1.1.1: add walls for many particles and mesons
+- v1.1.2: add a few cores for mesons and particles
+- v1.1.3: add a few new machine accelerators and menders and shields
+- V1.2: add many more turrets and units    || combat update
+- V1.3: enhance the oil refininery and add more preliminaries and biproducts   || oil and preliminaries update
+- V1.4: finish off with all of the chemical elements      || chemistry update
