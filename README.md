@@ -11,10 +11,10 @@ this mod is inspired by bod-angels mod set for factorio and is not reccommended 
 ## Features
 
 - 18 ores 
-- 50 non-ore items
+- 89 non-ore items
 - 18 statuses
 - 27 fluids
-- 15 production blocks
+- 22 production blocks
 - 4 units
 - 3 turrets
 - 0 wall blocks
@@ -29,6 +29,7 @@ this mod is inspired by bod-angels mod set for factorio and is not reccommended 
 ## Update Logs
 
 - V1.0: release onto github
+- V1.1: added all mesons, added 4 new machines
 
 ## update plans
 
