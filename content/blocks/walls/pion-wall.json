@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "name": "pion wall",
+    "health": 300,
+    "size": 1,
+    "category": "defense",
+    "absorbLasers": false,
+    "requirements": [
+    "pionUU/2",
+    "pionUD/2",
+    "pionDU/2",
+    "pionDD/2"
+    ]
+    }

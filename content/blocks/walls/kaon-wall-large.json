@@ -1,0 +1,13 @@
+{
+    "type": "Wall",
+    "name": "large kaon wall",
+    "health": 1050,
+    "size": 2,
+    "category": "defense",
+    "absorbLasers": true,
+    "requirements": [
+    "kaon/12",
+    "kaonN/12",
+    "kaonP/12"
+    ]
+    }

@@ -1,0 +1,11 @@
+{
+"type": "Wall",
+"name": "charmQuark wall",
+"health": 200,
+"size": 1,
+"category": "defense",
+"absorbLasers": false,
+"requirements": [
+"charmQuark/8"
+]
+}

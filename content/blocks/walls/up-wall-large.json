@@ -1,0 +1,11 @@
+{
+    "type": "Wall",
+    "name": "large upQuark wall",
+    "health": 450,
+    "size": 2,
+    "category": "defense",
+    "absorbLasers": false,
+    "requirements": [
+    "upQuark/32"
+    ]
+    }

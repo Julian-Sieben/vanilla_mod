@@ -1,0 +1,16 @@
+{
+    "type": "Wall",
+    "name": "quark wall",
+    "health": 400,
+    "size": 1,
+    "category": "defense",
+    "absorbLasers": false,
+    "requirements": [
+    "upQuark/8",
+    "downQuark/8",
+    "strangeQuark/8",
+    "charmQuark/8",
+    "topQuark/8",
+    "bottomQuark/8"
+    ]
+    }

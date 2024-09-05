@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "name": "bMeson wall",
+    "health": 550,
+    "size": 1,
+    "category": "defense",
+    "absorbLasers": true,
+    "requirements": [
+    "chargedBMeson/4",
+    "neutralBMeson/4",
+    "charmedBMeson/4",
+    "strangeBmeson/4"
+    ]
+    }

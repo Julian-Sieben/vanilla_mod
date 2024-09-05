@@ -1,0 +1,16 @@
+{
+    "type": "Wall",
+    "name": "large quark wall",
+    "health": 1200,
+    "size": 2,
+    "category": "defense",
+    "absorbLasers": false,
+    "requirements": [
+    "upQuark/32",
+    "downQuark/32",
+    "strangeQuark/32",
+    "charmQuark/32",
+    "topQuark/32",
+    "bottomQuark/32"
+    ]
+    }

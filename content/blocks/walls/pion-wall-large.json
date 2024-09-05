@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "name": "large pion wall",
+    "health": 900,
+    "size": 2,
+    "category": "defense",
+    "absorbLasers": false,
+    "requirements": [
+    "pionUU/8",
+    "pionUD/8",
+    "pionDU/8",
+    "pionDD/8"
+    ]
+    }

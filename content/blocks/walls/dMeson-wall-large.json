@@ -1,0 +1,13 @@
+{
+    "type": "Wall",
+    "name": "dMeson wall",
+    "health": 1300,
+    "size": 2,
+    "category": "defense",
+    "absorbLasers": true,
+    "requirements": [
+    "chargedDMeson/12",
+    "neutralDMeson/12",
+    "strangeDmeson/12"
+    ]
+    }
