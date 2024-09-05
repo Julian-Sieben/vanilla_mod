@@ -60,6 +60,426 @@
         ]
        },
        "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionDD", "amount": 1},
+       {"item": "vanilla-mod-pionUD", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-etaMesonDD", "amount": 2}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionDD", "amount": 1},
+       {"item": "vanilla-mod-pionDU", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-etaMesonUU", "amount": 2}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-etaPrimeMesonDD", "amount": 1},
+       {"item": "vanilla-mod-pionUD", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-etaPrimeMesonDD", "amount": 2}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-pionUU", "amount": 1},
+       {"item": "vanilla-mod-pionDU", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-pionUD", "amount": 2}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-upQuark", "amount": 1},
+       {"item": "vanilla-mod-antiStrangeQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-kaonP", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-downQuark", "amount": 1},
+       {"item": "vanilla-mod-antiStrangeQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-kaon", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-strangeQuark", "amount": 1},
+       {"item": "vanilla-mod-antiUpQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-etaPrimeMesonDD", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-charmQuark", "amount": 1},
+       {"item": "vanilla-mod-antiDownQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-chargedDMeson", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-downQuark", "amount": 1},
+       {"item": "vanilla-mod-antiCharmQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiChargedDMeson", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-charmQuark", "amount": 1},
+       {"item": "vanilla-mod-antiUpQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-neutralDMeson", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-upQuark", "amount": 1},
+       {"item": "vanilla-mod-antiCharmQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiNeutralDMeson", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-charmQuark", "amount": 1},
+       {"item": "vanilla-mod-antiStrangeQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-strangeDMeson", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-strangeQuark", "amount": 1},
+       {"item": "vanilla-mod-antiCharmQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiStrangeDMeson", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       }, 
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+            {"item": "vanilla-mod-pionUD", "amount": 1},
+            {"item": "vanilla-mod-pionDU", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+           {"item": "vanilla-mod-shortKaon", "amount": 1}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+
+            {"item": "vanilla-mod-pionUD", "amount": 1},
+            {"item": "vanilla-mod-pionDU", "amount": 1},
+            {"item": "vanilla-mod-muon", "amount": 2}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-longKaon", "amount": 2}
+        ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       
+       {"item": "vanilla-mod-upQuark", "amount": 1},
+       {"item": "vanilla-mod-antiBottomQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+        {"item": "vanilla-mod-chargedBMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-upQuark", "amount": 1},
+       {"item": "vanilla-mod-bottomQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+       {"item": "vanilla-mod-antiChargedBMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+            {"item": "vanilla-mod-downQuark", "amount": 1},
+            {"item": "vanilla-mod-antiBottomQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-neutralBMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+            {"item": "vanilla-mod-downQuark", "amount": 1},
+            {"item": "vanilla-mod-bottomQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-antiNeutralBMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-strangeQuark", "amount": 1},
+       {"item": "vanilla-mod-antiBottomQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+        {"item": "vanilla-mod-strangeBMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-strangeQuark", "amount": 1},
+       {"item": "vanilla-mod-bottomQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+       {"item": "vanilla-mod-antiStrangeBMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+            {"item": "vanilla-mod-charmQuark", "amount": 1},
+            {"item": "vanilla-mod-antiBottomQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-charmedBMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-charmQuark", "amount": 1},
+       {"item": "vanilla-mod-bottomQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+        {"item": "vanilla-mod-antiCharmedBMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+            {"item": "vanilla-mod-strangeQuark", "amount": 1},
+            {"item": "vanilla-mod-antiStrangeQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-phiMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+         "items": [
+            {"item": "vanilla-mod-charmQuark", "amount": 1},
+            {"item": "vanilla-mod-antiCharmQuark", "amount": 1}
+         ]
+       },
+       "output": {
+        "items": [
+             {"item": "vanilla-mod-psiMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+            {"item": "vanilla-mod-bottomQuark", "amount": 1},
+            {"item": "vanilla-mod-antiBottomQuark", "amount": 1}
+          ]
+
+       },
+       "output": {
+        "items": [
+            {"item": "vanilla-mod-upsilonMeson", "amount": 1}
+          ]
+       },
+       "craftTime": 600
        }
 
 

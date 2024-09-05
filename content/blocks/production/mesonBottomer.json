@@ -1,0 +1,45 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]meson bottomer",
+    "description": "charms mesons",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+       {
+        "input": {
+        "power": 5,
+         "items": [
+       {"item": "vanilla-mod-bottomQuark", "amount": 3},
+       {"item": "vanilla-mod-etaMesonUU", "amount": 3}
+         ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-bottomEtaMeson", "amount": 1}
+        ]
+       },
+       "craftTime": 200
+       }
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "bottomQuark", "amount": 100},
+        {"item": "topQuark", "amount": 500},
+        {"item": "strangeQuark", "amount": 50}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

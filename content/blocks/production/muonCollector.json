@@ -34,9 +34,12 @@
        }
      ],
     "requirements": [
-        {"item": "proton", "amount": 200},
-        {"item": "neutron", "amount": 200},
-        {"item": "electron", "amount": 400}
+        {"item": "proton", "amount": 5000},
+        {"item": "neutron", "amount": 5000},
+        {"item": "electron", "amount": 5000},
+        {"item": "pionUU", "amount": 500},
+        {"item": "pionDD", "amount": 500},
+        {"item": "photon", "amount": 100}
     ],
     "category": "crafting",
       "research": {

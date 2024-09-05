@@ -1,0 +1,177 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "localizedName": "[#ff66]virtual particle generator",
+    "description": "generates virtual particles",
+    "health": 500,
+    "itemCapacity": 50,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "updateEffect": "smeltsmoke",	
+   "recipes": 
+   [
+  
+    {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 2}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 1},
+      {"item": "vanilla-mod-positron", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 4}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-muon", "amount": 1},
+      {"item": "vanilla-mod-antiMuon", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 6}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-tau", "amount": 1},
+      {"item": "vanilla-mod-antitau", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 2}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-upQuark", "amount": 1},
+      {"item": "vanilla-mod-antiUpQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 2}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-downQuark", "amount": 1},
+      {"item": "vanilla-mod-antiDownQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 8}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-strangeQuark", "amount": 1},
+      {"item": "vanilla-mod-antiStrangeQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 8}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-charmQuark", "amount": 1},
+      {"item": "vanilla-mod-antiCharmQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 64}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-topQuark", "amount": 1},
+      {"item": "vanilla-mod-antiTopQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       },
+
+       {
+        "input": {
+        "power": 5,
+        "items": [
+      {"item": "vanilla-mod-electron", "amount": 64}
+        ]
+       },
+       "output": {
+        "items": [
+      {"item": "vanilla-mod-bottomQuark", "amount": 1},
+      {"item": "vanilla-mod-antiBottomQuark", "amount": 1}
+        ]
+       },
+       "craftTime": 1000
+       }
+
+
+
+   ],
+  "drawer": [
+       { 
+         "type": "DrawDefault" 
+       }
+     ],
+    "requirements": [
+        {"item": "proton", "amount": 200},
+        {"item": "neutron", "amount": 200},
+        {"item": "electron", "amount": 400}
+    ],
+    "category": "crafting",
+      "research": {
+      "parent": "graphite"
+    }
+  }
+  

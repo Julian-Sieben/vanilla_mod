@@ -17,7 +17,7 @@
         "items": [
        {"item": "vanilla-mod-neutron", "amount": 1},
        {"item": "vanilla-mod-proton", "amount": 1},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 2},
        {"item": "vanilla-mod-electron", "amount": 1}
          ]
        },
@@ -34,7 +34,7 @@
         "power": 1,
         "items": [
        {"item": "vanilla-mod-upQuark", "amount": 2},
-       {"item": "vanilla-mod-gluon", "amount": 8},
+       {"item": "vanilla-mod-gluon", "amount": 6},
        {"item": "vanilla-mod-downQuark", "amount": 1}
          ]
        },
@@ -51,7 +51,7 @@
         "power": 1,
         "items": [
        {"item": "vanilla-mod-upQuark", "amount": 1},
-       {"item": "vanilla-mod-gluon", "amount": 8},
+       {"item": "vanilla-mod-gluon", "amount": 6},
        {"item": "vanilla-mod-downQuark", "amount": 2}
          ]
        },
@@ -69,7 +69,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 3},
        {"item": "vanilla-mod-proton", "amount": 3},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 8},
        {"item": "vanilla-mod-electron", "amount": 3}
          ]
        },
@@ -87,7 +87,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 4},
        {"item": "vanilla-mod-proton", "amount": 4},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 4}
          ]
        },
@@ -105,7 +105,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 7},
        {"item": "vanilla-mod-proton", "amount": 7},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 7}
          ]
        },
@@ -123,7 +123,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 8},
        {"item": "vanilla-mod-proton", "amount": 8},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 8}
          ]
        },
@@ -141,7 +141,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 11},
        {"item": "vanilla-mod-proton", "amount": 11},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 11}
          ]
        },
@@ -159,7 +159,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 12},
        {"item": "vanilla-mod-proton", "amount": 12},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 12}
          ]
        },
@@ -177,7 +177,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 16},
        {"item": "vanilla-mod-proton", "amount": 16},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 16}
          ]
        },
@@ -195,7 +195,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 17},
        {"item": "vanilla-mod-proton", "amount": 17},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 17}
          ]
        },
@@ -213,7 +213,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 18},
        {"item": "vanilla-mod-proton", "amount": 18},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 18}
          ]
        },
@@ -231,7 +231,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 20},
        {"item": "vanilla-mod-proton", "amount": 20},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 20}
          ]
        },
@@ -249,7 +249,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 22},
        {"item": "vanilla-mod-proton", "amount": 22},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 22}
          ]
        },
@@ -266,7 +266,7 @@
         "power": 529,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 23},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 23},
        {"item": "vanilla-mod-electron", "amount": 23}
          ]
@@ -284,7 +284,7 @@
         "power": 576,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 24},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 24},
        {"item": "vanilla-mod-electron", "amount": 24}
          ]
@@ -302,7 +302,7 @@
         "power": 625,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 25},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 25},
        {"item": "vanilla-mod-electron", "amount": 25}
          ]
@@ -320,7 +320,7 @@
         "power": 729,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 27},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 27},
        {"item": "vanilla-mod-electron", "amount": 27}
          ]
@@ -338,7 +338,7 @@
         "power": 784,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 28},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 28},
        {"item": "vanilla-mod-electron", "amount": 28}
          ]
@@ -356,7 +356,7 @@
         "power": 784,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 28},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 28},
        {"item": "vanilla-mod-electron", "amount": 28}
          ]
@@ -374,7 +374,7 @@
         "power": 841,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 29},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 29},
        {"item": "vanilla-mod-electron", "amount": 29}
          ]
@@ -393,7 +393,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 47},
        {"item": "vanilla-mod-proton", "amount": 47},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 47}
          ]
        },
@@ -411,7 +411,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 76},
        {"item": "vanilla-mod-proton", "amount": 76},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 76}
          ]
        },
@@ -428,7 +428,7 @@
         "power": 6241,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 79},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 79},
        {"item": "vanilla-mod-electron", "amount": 79}
          ]
@@ -446,25 +446,7 @@
         "power": 6724,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 82},
-       {"item": "vanilla-mod-gluon", "amount": 40},
-       {"item": "vanilla-mod-proton", "amount": 82},
-       {"item": "vanilla-mod-electron", "amount": 82}
-         ]
-       },
-       "output": {
-        "items": [
-            {"item": "lead", "amount": 1}
-        ]
-       },
-       "craftTime": 410
-       },
-
-       {
-        "input": {
-        "power": 6724,
-         "items": [
-       {"item": "vanilla-mod-neutron", "amount": 82},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 82},
        {"item": "vanilla-mod-electron", "amount": 82}
          ]
@@ -482,7 +464,7 @@
         "power": 8100,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 90},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 90},
        {"item": "vanilla-mod-electron", "amount": 90}
          ]
@@ -500,7 +482,7 @@
         "power": 8464,
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 92},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-proton", "amount": 92},
        {"item": "vanilla-mod-electron", "amount": 92}
          ]
@@ -519,7 +501,7 @@
          "items": [
        {"item": "vanilla-mod-neutron", "amount": 94},
        {"item": "vanilla-mod-proton", "amount": 94},
-       {"item": "vanilla-mod-gluon", "amount": 40},
+       {"item": "vanilla-mod-gluon", "amount": 10},
        {"item": "vanilla-mod-electron", "amount": 94}
          ]
        },
@@ -538,7 +520,7 @@
        }
      ],
     "requirements": [
-        {"item": "uranium238", "amount": 250},
+        {"item": "uranium238", "amount": 50},
         {"item": "plutonium", "amount": 150},
         {"item": "surge-alloy", "amount": 250},
         {"item": "plastanium", "amount": 500}
