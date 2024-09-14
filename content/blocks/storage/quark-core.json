@@ -1,0 +1,21 @@
+{
+    "type": "CoreBlock",
+    "name": "quark core",
+    "description": "a core made purely out of quarks.",
+    "health": 8000,
+    "size": 4,
+    "absorbLasers": true,
+    "itemCapacity": 25000,
+    "unitCapModifier": 25,
+    "incinerateNonBuildable": false,
+    "isFirstTier": false,
+    "requirements": [
+      "upQuark/3000",
+      "downQuark/3000",
+      "strangeQuark/2500",
+      "charmQuark/2500",
+      "topQuark/2000",
+      "bottomQuark/2000"
+    ],
+    "category": "effect"
+      }

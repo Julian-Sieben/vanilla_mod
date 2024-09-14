@@ -1,0 +1,22 @@
+{
+    "type": "CoreBlock",
+    "name": "quark core",
+    "description": "a core made purely out of quarks.",
+    "health": 12000,
+    "size": 4,
+    "absorbLasers": true,
+    "itemCapacity": 50000,
+    "unitCapModifier": 35,
+    "incinerateNonBuildable": false,
+    "isFirstTier": false,
+    "requirements": [
+      "pionDD/3000",
+      "pionUU/3000",
+      "pionDU/2500",
+      "pionUD/2500",
+      "charmedBMeson/1000",
+      "strangeBMeson/1000",
+      "chargedBMeson/1000"
+    ],
+    "category": "effect"
+      }

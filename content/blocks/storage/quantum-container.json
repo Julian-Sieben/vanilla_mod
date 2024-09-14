@@ -1,0 +1,16 @@
+{
+"type": "StorageBlock",
+"name": "quantum container",
+"description": "Stores a large number of resources",
+"requirements": [
+"gluon/800",
+"strangeQuark/100",
+"antiStrangeQuark/100",
+"pionDD/50",
+"photon/250"
+],
+"category": "effect",
+"health": 2500,
+"itemCapacity": 10000,
+"size": 2
+}

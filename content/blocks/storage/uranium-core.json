@@ -1,0 +1,18 @@
+{
+    "type": "CoreBlock",
+    "name": "radioactive core",
+    "description": "a core made purely out of uranium.",
+    "health": 6000,
+    "size": 4,
+    "absorbLasers": true,
+    "itemCapacity": 20000,
+    "unitCapModifier": 20,
+    "incinerateNonBuildable": false,
+    "isFirstTier": false,
+    "requirements": [
+      "uranium234/3000",
+      "uranium235/2500",
+      "uranium238/2500"
+    ],
+    "category": "effect"
+      }
