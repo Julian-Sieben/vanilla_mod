@@ -21,12 +21,6 @@ this mod is inspired by bob-angels mod set for factorio and is not reccommended 
 - 3 cores
 - 1 storage block
 
-
-## Acknowledgements
-
- - coder: vanilla5751
- - spriter: vanilla5751
-
 ## Update Logs
 
 - V1.0: release onto github
