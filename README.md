@@ -1,5 +1,4 @@
-
-# Vanilla mod
+# Vanilla mod (Project is Deprecated and will not be getting any more updates, though i may make another mod someday)
 
 a massive mod for mindustry loosely based on real chemical and physics processes.
 
